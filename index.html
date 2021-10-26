@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title>Insert title here</title>  
+</head>  
+<body>  
+  
+<h1>Add New Mobile</h1>  
+<form action="SaveServlet" method="post">  
+<table>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Purchase Date:</td><td><input type="text" name="date"/></td></tr>
+<tr><td>Condition Notes:</td><td><input type="text" name="notes"/></td></tr>  
+<tr><td>Category:</td><td><input type="text" name="category"> </td></tr>
+<tr><td>Assignment status:</td><td>
+<select name="status" style="width:150px"> 
+<option>Available</option> 
+<option>Assigned</option>
+<option>Recovered</option>
+ </select>
+ </td></tr> 
+ <tr><td colspan="2"><input type="submit" value="Save Mobile"/></td></tr> 
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewServlet">View Mobiles</a>  
+  
+</body>  
+</html>
